@@ -1,0 +1,51 @@
+body{
+	padding:142px 0px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align:center;
+}
+.italic{
+	font-style:italic;
+}
+
+/* Hover peste nume */
+
+span#nume:hover{
+    cursor: pointer;
+}
+
+
+span#b{
+	position:absolute;
+    opacity:0;
+    transition: opacity 0.5s;
+
+}
+
+span#nume:hover span#b{
+	position:relative;
+    opacity:1;  
+}
+
+/* Culori link */
+a:link {
+    color: #c0392b;
+}
+
+a:visited {
+    color: #c0392b;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+a:active {
+    color: #2980b9;
+}
+
+/* Big red */
+.red{
+	font-weight:bold;
+	color:#c0392b;
+}
